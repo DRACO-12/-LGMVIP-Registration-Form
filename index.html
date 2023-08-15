@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="From.css">
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form id="registrationForm">
+        <label for="firstName" class="line">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+
+        <label for="lastName" class="line">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="email" class="line">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <div class="con">
+            <label for="gender">Gender:</label>
+            <div class="box">
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="Male" required>
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="Female" required>
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="gender" value="Other" required>
+            </div>
+        </div>
+        <div class="con">
+            <label for="skills">Skills:</label>
+            <div class="box">
+                <label for="html">HTML</label>
+                <input type="checkbox" id="html" name="skills" value="HTML">
+                <label for="css">CSS</label>
+                <input type="checkbox" id="css" name="skills" value="CSS">
+                <label for="javascript">JavaScript</label>
+                <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+                <label for="c++">C++</label>
+                <input type="checkbox" id="c++" name="skills" value="c++">
+                <!-- Add more skills checkboxes as needed -->
+            </div>
+        </div>
+
+        <label for="studentImg">Student Image:</label>
+        <input type="file" id="studentImg" name="studentImg" accept="image/*">
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </div>
+    </form>
+    <div id="displayData"></div>
+    <div id="displayImage"></div>
+</body>
+<script src="From.js"></script>
+
+</html>

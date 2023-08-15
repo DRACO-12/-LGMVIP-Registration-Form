@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: cornflowerblue;
+}
+
+h1 {
+    text-align: center;
+    background-color: blueviolet;
+    padding: 5px 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+label {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 5px;
+}
+
+.line {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 15px;
+}
+
+.con {
+    padding: 30x 40px;
+}
+
+.box {
+    padding: 30x 40px;
+}
+
+button {
+    background-color: lightblue;
+    font-family: 'Rubik', sans-serif;
+}
+
+#displayData {
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    display: block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: -390px;
+    margin-left: 120vh;
+}
+
+#displayImage {
+    margin-top: -250px;
+    margin-left: 170vh;
+}
+
+#displayImage img {
+    margin-top: -5px;
+    max-width: 200px;
+}
